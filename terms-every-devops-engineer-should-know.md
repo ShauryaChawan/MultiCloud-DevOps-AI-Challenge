@@ -1,38 +1,38 @@
 # Terms Every DevOps Engineer Should Know
 
-A growing quick-reference list of important DevOps, Linux, cloud, networking, automation, and infrastructure terms.
+A quick-reference list of the **100 DevOps terms from the reference infographic**, kept in the same order.
 
-> **Note:** This document is being built in batches of 25 terms. The terms already present in the reference infographic are intentionally included and expanded with additional useful concepts.
+> **Scope:** Terms **1–100** below are only the terms from the reference image. Additional DevOps terms will start from **101**.
 
 ## Terms 1–25
 
 | # | Term | Simple definition |
 |---:|---|---|
-| 1 | **API** | Interface that allows software systems to communicate |
-| 2 | **Artifact** | Built output produced by a software build |
-| 3 | **Authentication** | Process of verifying a user's or system's identity |
-| 4 | **Automation** | Using tools or scripts to perform tasks automatically |
-| 5 | **Autoscaling** | Automatically adjusting resources based on demand |
-| 6 | **Availability** | Measure of whether a system is accessible when needed |
-| 7 | **AWS** | Amazon's cloud computing platform |
-| 8 | **Azure** | Microsoft's cloud computing platform |
-| 9 | **Backup** | Copy of data kept for recovery after loss or failure |
-| 10 | **Bandwidth** | Amount of data that can be transferred over a network in a given time |
-| 11 | **Bash** | Unix/Linux shell and scripting language |
-| 12 | **Branch** | Separate line of development in a version-control repository |
-| 13 | **Build** | Process of compiling or packaging source code into deployable output |
-| 14 | **Capacity** | Available resources a system can use to handle workload |
-| 15 | **CI/CD** | Practices for continuously integrating, testing, and delivering software |
-| 16 | **Cloud** | On-demand computing resources delivered over a network |
-| 17 | **Cluster** | Group of connected machines or resources working together |
-| 18 | **Commit** | Saved change or snapshot in a version-control repository |
-| 19 | **Configure** | Set options or parameters so a system behaves as required |
-| 20 | **Container** | Isolated package containing an application and its dependencies |
-| 21 | **Dashboard** | Visual interface for viewing system or application information |
-| 22 | **Debugging** | Process of finding and fixing software or configuration problems |
-| 23 | **Deployment** | Releasing an application or change into a target environment |
-| 24 | **DevOps** | Culture and practices combining development and operations |
-| 25 | **Disaster Recovery** | Processes and plans for restoring systems after major failures |
+| 1 | **API** | Interface for software communication |
+| 2 | **Artifact** | Stored build output |
+| 3 | **Authentication** | Verifying identity |
+| 4 | **Automation** | Using tools to reduce manual work |
+| 5 | **Autoscaling** | Automatic resource scaling |
+| 6 | **Availability** | System uptime and accessibility |
+| 7 | **AWS** | Amazon cloud platform |
+| 8 | **Azure** | Microsoft cloud platform |
+| 9 | **Backup** | Copy for recovery |
+| 10 | **Bandwidth** | Data transfer capacity |
+| 11 | **Bash** | Common Unix shell |
+| 12 | **Branch** | Parallel line of development |
+| 13 | **Build** | Compiled or packaged software output |
+| 14 | **Capacity** | Available system resources |
+| 15 | **CI/CD** | Continuous integration and delivery |
+| 16 | **Cloud** | On-demand computing resources |
+| 17 | **Cluster** | Group of connected machines |
+| 18 | **Commit** | Saved set of code changes |
+| 19 | **Configure** | Adjust settings and setup |
+| 20 | **Container** | Portable packaged application unit |
+| 21 | **Dashboard** | Visual system information display |
+| 22 | **Debugging** | Finding and fixing issues |
+| 23 | **Deployment** | Releasing software to environments |
+| 24 | **DevOps** | Development and operations culture |
+| 25 | **Disaster Recovery** | Plan for major outages |
 
 ---
 
@@ -40,31 +40,31 @@ A growing quick-reference list of important DevOps, Linux, cloud, networking, au
 
 | # | Term | Simple definition |
 |---:|---|---|
-| 26 | **Discovery** | Process of finding available services, resources, or network endpoints |
-| 27 | **DNS** | System that translates domain names into IP addresses and other records |
-| 28 | **Docker** | Platform for building, running, and managing containers |
-| 29 | **Encryption** | Converting data into a protected form to prevent unauthorized access |
-| 30 | **Endpoint** | Network address or interface through which a service can be accessed |
-| 31 | **Failover** | Switching to a backup system when the primary system fails |
-| 32 | **Firewall** | Security control that allows or blocks network traffic based on rules |
-| 33 | **GCP** | Google Cloud's cloud computing platform |
-| 34 | **Git** | Distributed version-control system for tracking source-code changes |
-| 35 | **Grafana** | Platform for visualizing metrics and monitoring data through dashboards |
-| 36 | **gRPC** | High-performance RPC framework for communication between services |
-| 37 | **Helm** | Package manager used to install and manage Kubernetes applications |
-| 38 | **High Availability** | System design that minimizes downtime through redundancy and failover |
-| 39 | **HTTP** | Protocol commonly used for communication between web clients and servers |
-| 40 | **HTTPS** | HTTP secured with TLS encryption |
-| 41 | **IAM** | Identity and Access Management for controlling users, roles, and permissions |
-| 42 | **Incident** | Unplanned event that causes or may cause service disruption |
-| 43 | **Infrastructure** | Compute, network, storage, and other resources required to run systems |
-| 44 | **Ingress** | Incoming network traffic or a Kubernetes resource that routes external traffic |
-| 45 | **Instance** | Individual running compute resource such as a virtual machine |
-| 46 | **Integration Test** | Test that verifies interaction between multiple components or services |
-| 47 | **Kafka** | Distributed event-streaming platform for publishing and consuming messages |
-| 48 | **Kubernetes** | Platform for orchestrating and managing containerized applications |
-| 49 | **Latency** | Time taken for data or a request to travel from source to destination |
-| 50 | **Linux** | Open-source operating-system kernel widely used in servers and cloud infrastructure |
+| 26 | **Discovery** | Process of finding services |
+| 27 | **DNS** | Domain name lookup system |
+| 28 | **Docker** | Containerization platform and tooling |
+| 29 | **Encryption** | Protecting data by encoding |
+| 30 | **Endpoint** | Specific API address |
+| 31 | **Failover** | Switching to standby system |
+| 32 | **Firewall** | Network traffic filtering system |
+| 33 | **GCP** | Google Cloud platform |
+| 34 | **Git** | Distributed version control system |
+| 35 | **Grafana** | Metrics visualization platform |
+| 36 | **gRPC** | High-performance remote procedure calls |
+| 37 | **Helm** | Kubernetes package manager |
+| 38 | **High Availability** | Design for minimal downtime |
+| 39 | **HTTP** | Web communication protocol |
+| 40 | **HTTPS** | Secure web communication protocol |
+| 41 | **IAM** | Identity and access management |
+| 42 | **Incident** | Unplanned service disruption |
+| 43 | **Infrastructure** | Underlying computing resources |
+| 44 | **Ingress** | Incoming network traffic |
+| 45 | **Instance** | Running virtual server |
+| 46 | **Integration Test** | Test of combined components |
+| 47 | **Kafka** | Distributed event streaming platform |
+| 48 | **Kubernetes** | Container orchestration platform |
+| 49 | **Latency** | Delay before a response |
+| 50 | **Linux** | Common server operating system |
 
 ---
 
@@ -72,51 +72,68 @@ A growing quick-reference list of important DevOps, Linux, cloud, networking, au
 
 | # | Term | Simple definition |
 |---:|---|---|
-| 51 | **Logging** | Recording events and messages generated by systems and applications |
-| 52 | **Memory** | RAM available for running processes and storing temporary data |
-| 53 | **Merge** | Combining changes from different Git branches |
-| 54 | **Metrics** | Numerical measurements used to understand system or application performance |
-| 55 | **Microservices** | Architecture that structures an application as small independent services |
-| 56 | **Monitoring** | Continuously observing systems to detect health and performance issues |
-| 57 | **Monolith** | Application built and deployed as a single unit |
-| 58 | **Namespace** | Logical scope used to organize and isolate resources |
-| 59 | **Networking** | Communication between systems, services, and devices |
-| 60 | **Node** | Individual machine or worker in a distributed system or cluster |
-| 61 | **NoSQL** | Database approach designed for flexible, non-relational data models |
-| 62 | **Observability** | Ability to understand internal system behavior from its outputs |
-| 63 | **On-Call** | Responsibility for responding to operational incidents when needed |
-| 64 | **Orchestration** | Automated coordination and management of multiple resources or services |
-| 65 | **Pipeline** | Automated sequence of stages used to build, test, and deploy software |
-| 66 | **Playbook** | Defined set of steps for performing an operational or automation task |
-| 67 | **Pod** | Smallest deployable unit in Kubernetes, containing one or more containers |
-| 68 | **Platform** | Set of infrastructure, tools, and services used to build or run applications |
-| 69 | **Production** | Environment where software is running for real users |
-| 70 | **Prometheus** | Open-source monitoring and metrics collection system |
-| 71 | **Provisioning** | Creating and configuring infrastructure or resources for use |
-| 72 | **Pull Request** | Proposed code changes submitted for review and merging |
-| 73 | **Queue** | Structure that holds tasks or messages until they can be processed |
-| 74 | **Redundancy** | Extra resources or components added to improve availability and resilience |
-| 75 | **Reliability** | Ability of a system to consistently perform its intended function |
+| 51 | **Logging** | Recording system events |
+| 52 | **Memory** | RAM used by processes |
+| 53 | **Merge** | Combine code changes |
+| 54 | **Metrics** | Numerical performance measurements |
+| 55 | **Microservices** | Small independent service architecture |
+| 56 | **Monitoring** | Tracking system health and performance |
+| 57 | **Monolith** | Single large application |
+| 58 | **Namespace** | Logical resource grouping |
+| 59 | **Networking** | Connecting systems and traffic |
+| 60 | **Node** | Individual machine in a cluster |
+| 61 | **NoSQL** | Non-relational database approach |
+| 62 | **Observability** | Understanding system behavior through telemetry |
+| 63 | **On-call** | Assigned to handle incidents |
+| 64 | **Orchestration** | Coordinated management of services |
+| 65 | **Pipeline** | Automated software delivery workflow |
+| 66 | **Playbook** | Step-by-step response guide |
+| 67 | **Pod** | Smallest Kubernetes deployable unit |
+| 68 | **Platform** | Resources used to enable development |
+| 69 | **Production** | Live environment for users |
+| 70 | **Prometheus** | Monitoring and metrics system |
+| 71 | **Provisioning** | Creating infrastructure resources |
+| 72 | **Pull Request** | Proposed code change for review |
+| 73 | **Queue** | Ordered work or message list |
+| 74 | **Redundancy** | Duplicate components for resilience |
+| 75 | **Reliability** | Consistent system operation |
 
 ---
 
-### Reference
+## Terms 76–100
 
-These terms are based on the **“100 Words Every DevOps Engineer Should Know”** reference infographic shared for this learning series. Future batches will continue from **76 onward**, while adding important terms that are not covered in the original 100.
+| # | Term | Simple definition |
+|---:|---|---|
+| 76 | **Repository** | Code or package storage location |
+| 77 | **Resilience** | Ability to recover quickly |
+| 78 | **REST** | Web API architectural style |
+| 79 | **Restore** | Recover data from backup |
+| 80 | **Rollback** | Revert to a previous version |
+| 81 | **Runbook** | Documented operational procedures |
+| 82 | **Scalability** | Ability to handle growth |
+| 83 | **Secret** | Sensitive credential value |
+| 84 | **Server** | Computer providing services |
+| 85 | **Serverless** | Managed execution without servers |
+| 86 | **Service** | Network endpoint for workloads |
+| 87 | **Shell** | Command-line interpreter |
+| 88 | **SLA** | Service level agreement |
+| 89 | **Staging** | Pre-production testing environment |
+| 90 | **TCP** | Reliable transport protocol |
+| 91 | **Testing** | Checking software behavior and quality |
+| 92 | **Throughput** | Amount of work processed |
+| 93 | **TLS** | Protocol for encrypting connections |
+| 94 | **Token** | Credential used for access |
+| 95 | **Tracing** | Following requests across services |
+| 96 | **Troubleshooting** | Diagnosing operational problems |
+| 97 | **Unit Test** | Test for a small component |
+| 98 | **VM** | Virtual machine |
+| 99 | **Webhook** | HTTP callback notification |
+| 100 | **YAML** | Human-readable configuration format |
 
-### Planned coverage
+---
 
-The complete list will progressively cover:
+## Source and next phase
 
-- Linux administration
-- Networking
-- Git and GitHub
-- CI/CD
-- Docker and containers
-- Kubernetes
-- AWS, Azure, and GCP
-- Infrastructure as Code
-- Configuration management
-- Monitoring and observability
-- DevSecOps
-- Reliability and troubleshooting
+Terms **1–100** above correspond to the reference **“100 Words Every DevOps Engineer Should Know”** infographic.
+
+Starting with **101**, we can add additional terms that are not present in the original image, while keeping the same concise definition format.
